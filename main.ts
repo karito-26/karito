@@ -1,12 +1,9 @@
-basic.showLeds(`
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    . . . . .
-    `)
 basic.showIcon(IconNames.Heart)
-basic.showString("Hello!")
-basic.forever(function () {
-	
-})
+basic.showLeds(`
+    . # . # .
+    # . # . #
+    # . . . #
+    . # . # .
+    . . # . .
+    `)
+basic.showArrow(ArrowNames.North)
